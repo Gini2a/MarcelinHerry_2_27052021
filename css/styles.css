@@ -1,4 +1,24 @@
+/* polices personalisées*/
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+
+}
+
+
+
+
+
+
+
+
+
+
+
 body {
+    font-family: Raleway, "sans-serif";
+    
 
 }
 
@@ -8,21 +28,49 @@ a{
 
 
 
-.header {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+            
 
 }
 
 .logo {
+    float:left ;  
+    width: 80px;
 
 }
 
 .navigation {
+
+    
+    
+
+}
+
+ul {
+     display: flex;
+     list-style: none;
+     margin-right: 40px;
+    
+
+    
+
     
 
 }
 
 .navlien {
-    
+    text-decoration: none;
+    font-size: small;
+    padding: 25px;  
+} 
+ 
+.activite {
+    color: cadetblue;
+}
 }
 
 .main {
@@ -50,10 +98,53 @@ a{
 }
 
 .filtres{
+display: flex;
+margin-top: 20px;
+
+
+}
+.info{
+    text-align: left;
+    
 
 }
 
+.fa-map-marker-alt{
+    background-color: #F2F2F2;
+    color: black;
+    padding: 8px 8px 10px 8px;
+    margin: -5px;
+    border-radius:10px 0px 0px 10px ;
+    
+}
+
+input{
+    padding: 8px 8px 8px 8px;
+    border: 1px solid #F2F2F2;
+   
+}
+.boutonrecherche{
+    background-color: #0065FC;
+    color: white;
+    font-style: bold;
+    border-radius:0px 10px 10px 0px ;
+    padding: 8px 8px 8px 8px;
+    margin: -5px;
+    border:solid;
+}
+.fa-heart{
+    color: #0065FC;
+    background-color:#DEEBFF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 40px;
+    margin-right: -10px;
+    
+}
+
+
+
 .titrefiltres{
+
 
 }
 
@@ -62,6 +153,17 @@ a{
 }
 
 .filter_button{
+   border-radius: 40px;
+   padding: 10px 10px 10px 20px;
+   background-color: white;
+   border: 2px solid #F2F2F2;
+   
+                
+}
+
+
+        
+}
 
 }
 
