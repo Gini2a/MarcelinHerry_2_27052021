@@ -3,48 +3,30 @@ html{
 }
 
 
-
-
-
 /* polices personalisées*/
 
 @font-face {
     font-family: 'Raleway';
     src: url('../fonts/Raleway-VariableFont_wght.ttf');
-
-}a{
+}
+a{
+    font-size: small;
+    color: black;
     text-decoration: none;
 }
 
 
 
 
-
-
-
-
-
-
-
 body {
-    font-family: Raleway, "sans-serif";
-    
-
+    font-family: Raleway, "sans-serif";  
 }
-
-a{
-
-}
-
 
 
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    
-            
-
+    align-items: flex-end;   
 }
 
 .logo {
@@ -53,54 +35,50 @@ header {
 
 }
 
-.navigation {
-
-    
-    
-
-}
-
 ul {
      display: flex;
      list-style: none;
      margin-right: 40px;
-    
-
-    
-
-    
-
 }
 
-.navlien {
+
+.navlien1{
+    color:#0065FC;
     font-size: small;
-    padding: 25px;  
-} 
- 
-.activite {
-    color: cadetblue;
-}
-}
+    padding: 25px;
+    
 
-.main {
 
 }
 
-.recherche {
+.navlien2{
+    color: black;
+    font-size: small;
+    padding: 25px;
 
 }
 
-.headerrecherche{
-
+.navlien3{
+    color: #0065FC;
+    padding: 25px;
+    font-size: small;
+    font-weight: bold;
 }
-
-.titrerecherche{
-
+.hebergement {
+    color: #DEEBFF;
+}
+.activite{
+    color: #DEEBFF;
+}
+.inscription{
+    color:#0065FC;
+    font-weight: bold;
+  
 }
 
 .paragrapherecherche{
-font-size: small;
-margin-top: -15px;
+    font-size: small;
+    margin-top: -15px;
 }
 
 .formrecherche{
@@ -110,6 +88,12 @@ margin-top: -15px;
 .filtres{
 display: flex;
 margin-top: 20px;
+
+}
+
+.filtre:hover{
+    color :aqua;
+    text-decoration:blink ;
 
 }
 
@@ -149,8 +133,7 @@ input{
     border-radius: 50%;
     margin-left: -2px;
     align-self: flex-end;
-    
-    
+     
 }
 
 .titrefiltre{
@@ -163,9 +146,6 @@ input{
     display: flex;
     align-items: center;
   
-
-
-
 }
 
 .filtre{
@@ -188,21 +168,19 @@ input{
 .info{
     margin-top: 25px;
     font-size: small;
-
     
 }
 
 .fa-info-circle{
-    color: #0065FC
+    color: white;
+    background-color: #0065FC;
 }
         
-}
-
-}
-
 .resultatrecherche{
 
 }
+
+/*--------------------------------------------------------------------------------------------SECTION HEBERGEMENTS------------------------------------------------------------------------------------*/
 .hebergements{
   
   display: flex;
@@ -211,7 +189,7 @@ input{
 
 
 }
-
+/*-----------------------------------------------------------------------------------------Division Hébergements à Marseille--------------------------------------------------------------------------*/
 .hebergementex{
     
     width: 60%;
@@ -219,7 +197,7 @@ input{
     border-radius: 20px;
     margin:20px 20px 20px 20px;
     padding: 10px; 
-    height: 617px;
+    height: 615px;
     
  
 }
@@ -234,20 +212,16 @@ input{
 
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 80px 30px;
-    
-  
-   
-   
+    grid-gap: 80px 0   
     
 }
 
-.exemplehebergement{ /*select_h*/
+.exemplehebergement{ 
     
     
     height: 150px;
-    width: 100%;
-    display: inline-flex;
+    
+    display: flex;
     align-items: center;
  
     
@@ -278,23 +252,12 @@ input{
 
 }
 
-
-
-.figcaptionhebergement{
-    
-
-}
-
 .nomhebergement{
     font-weight: bold;
     font-size: small;
     color: black;
     padding-left: 8px;
-    line-height: 0px;
-    
-   
-    
-        
+    line-height: 0px;       
 }
 
 .prixhebergement{
@@ -304,6 +267,14 @@ input{
 
 }
 
+.afficher{
+    font-weight: bold;
+    font-size: small;
+    color: black;
+    padding-left: 40px;
+
+}
+/*---------------------------------------------------------------------------------------------------------------------------Les plus populaires---------------------------------------------------------------------------*/
 .popularite{
 
     background-color: #F2F2F2;
@@ -324,11 +295,7 @@ input{
     flex-direction: column;
     grid-gap:30px;
     align-items: center;
-    
-    
-
-    
-    
+       
 }
 .populaire{ 
    
@@ -338,11 +305,6 @@ input{
     display: inline-flex;
     align-items: center;
     
-    
-     
-
-   
-
 }
 
 .figpopulaire{
@@ -353,14 +315,6 @@ input{
     display: inline-flex;
     padding-right: 20px;
     
-    
-    
-
-}
-
-.figcaptionpopulaire{
-
-
 }
 
 .verte, 
@@ -404,36 +358,135 @@ span{
 
     
 }
+/*-----------------------------------------------------------------------------SECTION ACTIVITES A MARSEILLE-----------------------------------------------------------------------------*/
 
-.activités{
+.activites{
+    display: flex;
+    margin-top: 10px;
+}
+
+.titreactivite{
     
+    display: block;
+
+}
+.nomactivite{
+    font-weight: bold;
+    font-size: small;
+    color: black;
+    padding-left: 20px;
+    line-height: 5px;
+}
+
+.imgH{                     /*div 1 et 3*/
+    height: 390px;
+    width: 320px;
+    border-radius:20px 20px 0 0 ;
+    object-fit: cover;
+    
+}
+
+.figactivitepc{
+
+    background-color: white;
+    border-radius: 20px;
+    height: 425px;
+    width: 320px;
+    box-shadow: 0 0 12px #F2F2F2;
+}
+/***************************************************div2 Pomègues Fioul**********************************************************/
+.pomegues_frioul{
+    flex-direction: column;
+    padding-left: 10px;
+        
+}
+
+.figactivitePo{
+    background-color: white;
+    border-radius: 20px;
+    height: 220px;
+    width: 320px;
+    box-shadow: 0 0 12px #F2F2F2;
+    padding-bottom: 15px;
+    
+}
+.imgP{
+    height: 195px;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 
 }
 
-.titreactivité{
+.figactiviteF{
+    background-color: white;
+    border-radius: 20px;
+    height: 135px;
+    width: 320px;
+    box-shadow: 0 0 12px #F2F2F2;
 
 }
+.imgF{
+    height: 100px;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+  
 
-.exempleactivités{
 
+ .imgG{
+     height: 130px;
+     width: 320px;
+     object-fit: cover;
+     border-radius: 20px 20px 0 0;
+ }
+
+ .imgL{
+    height: 165px;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+     
+ }   
+   
+
+.garde_longchamp{
+    display: flex;
+    flex-direction: column;
+   
+    
 }
 
-.figactivité{
-
-}
-
-.figcaptionactivité{
-
-}
+/********************************************footer*****************************************/
 
 .footer{
+    background-color: #F2F2F2;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 
+}
+
+.propos,
+.nos_hebergements,
+.assistance{
+    font-size: small;
+    color: black;
+   
+    
+   
 }
 
 .listefooter{
+    flex-direction: column;
+ 
+
 
 }
 
 .titrefooter{
+    font-weight:bold;
+   
 
 }

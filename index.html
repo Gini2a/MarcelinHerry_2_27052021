@@ -16,8 +16,8 @@
         <img class="logo" src="images/logo/Reservia@3x.png" alt="logo reservia" />
         <nav class="navigation">
             <ul>
-            <li class="hebergement"><a class="navlien" href="#">Hébergements</a></li>
-            <li class="activite"><a class="navlien" href="#">Activités</a></li>
+            <li class="hebergement"><a class="navlien1" href="#">Hébergements</a></li>
+            <li class="activite"><a class="navlien2" href="#">Activités</a></li>
             <li class="inscription"><a class="navlien" href="#">S'inscrire</a></li>
             </ul>
         </nav>
@@ -68,7 +68,7 @@
         <section class=hebergements>
             <div class=hebergementex>
                 <h1 class="titrehebergement">Hébergement à Marseille</h1>
-                <div class="exempleshebergements"> <!--je ne comprends pas l'ajout de cette div-->
+                <div class="exempleshebergements"> 
                 <article class="exemplehebergement">
                     <a href="#">
                         <figure class="fighebergement">
@@ -182,7 +182,7 @@
                     </a>
                 </article>
                 </div><br><br>
-                <a href="#">Afficher plus</a>
+                <a class="afficher" href="#">Afficher plus</a>
             </div>
 
             <!--Hebergements les plus populaires-->
@@ -254,72 +254,85 @@
         </section>
 
         <!--Section Activités à Marseille-->
+        
+        <h2 class="titreactivite">Activités à Marseille</h2>
+        <section class="activites">
+            
+            <div class="vieuxport">
+            <article class="exempleactivites">
+                <a href="#">
+                    <figure class="figactivitepc">
+                        <img class="imgH" src="images/activites/4_small/port.jpg" alt="port avec bateaux" />
+                        <figcaption class="figcaptionactivite">
+                            <h3 class="nomactivite">Vieux Port</h3>
+                        </figcaption>
+                    </figure>
+                </a>
 
-        <section class="Activités"><!-- ajouts de div pour faire 4blocs-->
-            <h2 class="titreactivité">Activités à Marseille</h2>
-            <article class="exempleactivités">
-                <a href="#">
-                    <figure class="figactivité">
-                        <img src="images/activites/4_small/port.jpg" alt="port avec bateaux" />
-                        <figcaption class="figcaptionactivité">
-                            <h3 class="nomactivité">Vieux Port</h3>
-                        </figcaption>
-                    </figure>
-                </a>
             </article>
-            <article class="exempleactivités">
-                <a href="#">
-                    <figure class="figactivité">
-                        <img src="images/activites/4_small/fort.jpg"
+            </div>
+            <div class="pomegues_frioul">
+                <article class="exempleactivites">
+                    <a href="#">
+                        <figure class="figactivitePo">
+                             <img class="imgP" src="images/activites/4_small/fort.jpg"
                             alt="des cailloux avec un fort en arrière plan" />
-                        <figcaption class="figcaptionactivité">
-                            <h3 class="nomactivité">Fort de Pomègues</h3>
-                        </figcaption>
-                    </figure>
-                </a>
-                <article class="exempleactivités">
+                            <figcaption class="figcaptionactivite">
+                            <h3 class="nomactivite">Fort de Pomègues</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    </article>
+            
+
+                <article class="exempleactivites">
                     <a href="#">
-                        <figure class="figactivité">
-                            <img src="images/activites/4_small/Frioul.jpg"
-                                alt="longue vue et mer premier plan, mer second plan" />
-                            <figcaption class="figcaptionactivité">
-                                <h3 class="nomactivité">Îles du Frioul</h3>
+                        <figure class="figactiviteF">
+                            <img class="imgF" src="images/activites/4_small/Frioul.jpg"
+                            alt="longue vue et mer premier plan, mer second plan" />
+                            <figcaption class="figcaptionactivite">
+                            <h3 class="nomactivite">Îles du Frioul</h3>
                             </figcaption>
                         </figure>
                     </a>
                 </article>
-                <article class="exempleactivités">
+            </div>
+            <div class=Calanques>
+                <article class="exempleactivites">
                     <a href="#">
-                        <figure class="figactivité">
-                            <img src="images/activites/4_small/calanques.jpg"
+                        <figure class="figactivitepc">
+                            <img class="imgH" src="images/activites/4_small/calanques.jpg"
                                 alt="calanques avec mer au second plan" />
-                            <figcaption class="figcaptionactivité">
-                                <h3 class="nomactivité">Parc National des Calanques</h3>
+                            <figcaption class="figcaptionactivite">
+                                <h3 class="nomactivite">Parc National des Calanques</h3>
                             </figcaption>
                         </figure>
                     </a>
                 </article>
-                <article class="exempleactivités">
+            </div>
+            <div class="garde_longchamp"></div>
+                <article class="exempleactivites">
                     <a href="#">
-                        <figure class="figactivité">
-                            <img src="images/activites/4_small/notredame.jpg"
+                        <figure class="figactivite">
+                            <img class="imgG" src="images/activites/4_small/notredame.jpg"
                                 alt="ville avec au fond notre-dame-de-la-garde" />
-                            <figcaption class="figcaptionactivité">
-                                <h3 class="nomactivité">Notre-Dame-de-la-Garde</h3>
+                            <figcaption class="figcaptionactivite">
+                                <h3 class="nomactivite">Notre-Dame-de-la-Garde</h3>
                             </figcaption>
                         </figure>
                 </article>
-                <article class="exemple activités">
+                <article class="exempleactivites">
                     <a href="#">
-                        <figure class="figactivité">
-                            <img src="images/activites/4_small/Longchamp.jpg"
+                        <figure class="figactivite">
+                            <img class="imgL" src="images/activites/4_small/Longchamp.jpg"
                                 alt="vue extérieure du parc avec une fontaine au milieu" />
-                            <figcaption class="figcaptionactivité">
-                                <h3 class="nomactivité">Parc Longchamp</h3>
+                            <figcaption class="figcaptionactivite">
+                                <h3 class="nomactivite">Parc Longchamp</h3>
                             </figcaption>
                         </figure>
                     </a>
                 </article>
+            </div>
 
         </section>
     </main>
@@ -328,22 +341,28 @@
 
     <footer>
         <div class="footer">
+            <div class=propos>
+                <h4 class="titrefooter">A propos</h4>
             <ul class="listefooter">
-                <li class="titrefooter">A propos</li><!-- h1, 3div avec ul-->
                 <Li><a href="#">Fonctionnement du site</a></li>
                 <Li> <a href="#">Conditions générales de vente </a></li>
-                <Li> <a href="#">Données et confidentiality</a></li>
+                <Li> <a href="#">Données et confidentialité</a></li>
             </ul>
+            </div>
+            <div class=nos_hebergements>
+                <h4 class="titrefooter">Nos hébergements</h4>
             <ul class="listefooter">
-                <li class="titrefooter">Nos hébergements</li>
                 <Li><a href="#">Charte qualité</a></li>
                 <Li><a href="#"> Soumettre votre hôtel</a></li>
             </ul>
+            </div>
+            <div class="assistance">
+                <h4 class="titrefooter">Assistance</h4>
             <ul class="listefooter">
-                <li class="titrefooter">Assistance</li>
                 <Li><a href="#">Centre d'aide</a></li>
                 <Li><a href="#">Nous contacter</a></li>
             </ul>
+            </div>
         </div>
     </footer>
 </body>
