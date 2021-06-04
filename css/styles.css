@@ -1,9 +1,19 @@
+html{
+   
+}
+
+
+
+
+
 /* polices personalisées*/
 
 @font-face {
     font-family: 'Raleway';
     src: url('../fonts/Raleway-VariableFont_wght.ttf');
 
+}a{
+    text-decoration: none;
 }
 
 
@@ -63,7 +73,6 @@ ul {
 }
 
 .navlien {
-    text-decoration: none;
     font-size: small;
     padding: 25px;  
 } 
@@ -90,7 +99,8 @@ ul {
 }
 
 .paragrapherecherche{
-
+font-size: small;
+margin-top: -15px;
 }
 
 .formrecherche{
@@ -100,12 +110,6 @@ ul {
 .filtres{
 display: flex;
 margin-top: 20px;
-
-
-}
-.info{
-    text-align: left;
-    
 
 }
 
@@ -126,42 +130,71 @@ input{
 .boutonrecherche{
     background-color: #0065FC;
     color: white;
-    font-style: bold;
+    font-weight: bold;
     border-radius:0px 10px 10px 0px ;
     padding: 8px 8px 8px 8px;
     margin: -5px;
     border:solid;
 }
-.fa-heart{
+.fa-heart, 
+.fa-child,
+.fa-money-bill-wave,
+.fa-dog  {
     color: #0065FC;
     background-color:#DEEBFF;
-    padding: 10px 10px 10px 10px;
-    border-radius: 40px;
-    margin-right: -10px;
+    line-height: 40px;
+  height: 40px;
+  width: 40px;
+ text-align: center;
+    border-radius: 50%;
+    margin-left: -2px;
+    align-self: flex-end;
+    
     
 }
 
+.titrefiltre{
+    margin-right: 20px;
+    font-weight: bold;
+}
 
+.filtres{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  
 
-.titrefiltres{
 
 
 }
 
 .filtre{
 
+    border-radius: 40px;
+    border: 2px solid #F2F2F2;
+    background-color: white;
+    margin: 0 5px;
+  
 }
 
 .filter_button{
-   border-radius: 40px;
-   padding: 10px 10px 10px 20px;
-   background-color: white;
-   border: 2px solid #F2F2F2;
-   
-                
+   border-radius: 40px; 
+   background-color:transparent;
+   border:none;
+   font-weight: bold;
+              
 }
 
+.info{
+    margin-top: 25px;
+    font-size: small;
 
+    
+}
+
+.fa-info-circle{
+    color: #0065FC
+}
         
 }
 
@@ -170,68 +203,210 @@ input{
 .resultatrecherche{
 
 }
+.hebergements{
+  
+  display: flex;
+  height: 800px;
 
-.hebergement{
+
 
 }
 
 .hebergementex{
-
+    
+    width: 60%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin:20px 20px 20px 20px;
+    padding: 10px; 
+    height: 617px;
+    
+ 
 }
 
 .titrehebergement{
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 30px;
 
 }
+.exempleshebergements{/*hotel*/
 
-.exemplehebergement{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 80px 30px;
+    
+  
+   
+   
+    
+}
 
+.exemplehebergement{ /*select_h*/
+    
+    
+    height: 150px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+ 
+    
+   
+}
+
+.lit,
+.port,
+.mouette,
+.mer,
+.panier,
+.amina {
+    height: 115px;
+    width: 205px;
+    border-radius:20px;
+    object-fit: cover;
+    padding:5px 5px 0px 5px
+  
 }
 
 .fighebergement{
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    width: 195px;
+    
+    padding-right: 20px;
 
 }
 
+
+
 .figcaptionhebergement{
+    
 
 }
 
 .nomhebergement{
-
+    font-weight: bold;
+    font-size: small;
+    color: black;
+    padding-left: 8px;
+    line-height: 0px;
+    
+   
+    
+        
 }
 
 .prixhebergement{
+    font-size:x-small;
+    color: black;
+    padding-left: 8px;
 
 }
 
-.popularité{
+.popularite{
+
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin:20px 20px 20px 20px;
+    padding: 30px; 
+    height: 575px;
 
 }
 
 .titrepopulaire{
+    font-weight: bold;
 
 }
 
-.populaire{
+.populaires{ 
+    display: flex;
+    flex-direction: column;
+    grid-gap:30px;
+    align-items: center;
+    
+    
+
+    
+    
+}
+.populaire{ 
+   
+   
+    height: 150px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    
+    
+     
+
+   
 
 }
 
 .figpopulaire{
+    background-color: white;
+    border-radius: 20px;
+    height: 140px;
+    width: 280px;
+    display: inline-flex;
+    padding-right: 20px;
+    
+    
+    
 
 }
 
 .figcaptionpopulaire{
 
+
 }
 
+.verte, 
+.coeur,
+.parquet{
+    height: 130px;
+    width: 120px;
+    object-fit: cover;
+    border :white 5px;
+    border-radius: 20px 0 0 20px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
 .nompopulaire{
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    
+   
 
 }
 
 .prixpopulaire{
+    font-size: x-small;
+    color: black;
 
 }
 
+.rating{
+color: #0065FC;
+font-size: x-small;
+
+}
+
+span{
+    color: #F2F2F2
+
+    
+}
+
 .activités{
+    
 
 }
 
