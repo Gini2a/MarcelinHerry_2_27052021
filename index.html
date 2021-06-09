@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="css/mobile.css" />
+    
     <script src="https://kit.fontawesome.com/5771381310.js" crossorigin="anonymous"></script>
     <title>Reservia : Locations de vacances de rêve</title>
 </head>
@@ -15,7 +17,7 @@
     <header class="header">
         <img class="logo" src="images/logo/Reservia.svg" alt="logo reservia" />
         <nav class="navigation">
-            <ul>
+            <ul class="navliens">
             <li class="hebergement"><a class="navlien1" href="#hosting">Hébergements</a></li>
             <li class="activite"><a class="navlien2" href="#activity">Activités</a></li>
             <li class="inscription"><a class="navlien3" href="#">S'inscrire</a></li>
@@ -32,26 +34,26 @@
             
          <form class="formrecherche" method="post" action="traitement.php">
             <div class="barre_recherche">
-                <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-map-marker-alt" ></i>
                 <input type="search" name="value"/>
                 <button class="boutonrecherche" type="submit">Rechercher</button>
             </div>
             <div class="filtres">
                 <p class="titrefiltre">Filtres</p>
                 <div class="filtre">
-                    <i class="fas fa-money-bill-wave"></i>
+                    <i class="fas fa-money-bill-wave" title="prix imbattable"></i>
                     <button class=" filter_button" type="button">Économique</button>
                 </div>
                 <div class="filtre">
-                    <i class="fas fa-child"></i>
+                    <i class="fas fa-child" title="avec enfants"></i>
                     <button class=" filter_button" type=" button">Familial</button>
                 </div>
                 <div class="filtre">
-                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart" title="escapade amoureuse"></i>
                     <button class="filter_button" type="button">Romantique</button>
                 </div>
                 <div class="filtre">
-                    <i class="fa fa-dog"></i>
+                    <i class="fa fa-dog" title="boule de poils"></i>
                     <button class="filter_button" type="button">Animaux autorisés</button>
                 </div>
             </div>
@@ -188,12 +190,13 @@
             <!--Hebergements les plus populaires-->
 
             <aside class="popularite">
+                <div class="headpop">
+                    <h2 class="titrepopulaire"> Les plus populaires <i class="fas fa-chart-line"></i></h2>
+                </div>
                 
 
                 <div class=populaires>
-                    <div class="headpop">
-                <h2 class="titrepopulaire"> Les plus populaires <i class="fas fa-chart-line"></i></h2>
-            </div>
+                   
                 
                 <article class="populaire"> 
                     <a href="#">
