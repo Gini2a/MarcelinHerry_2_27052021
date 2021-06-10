@@ -31,7 +31,11 @@ header
     width: 80px;
 }
 
+.inscriremob{
+    display: none;
+}
 ul 
+
 {
      display: flex;
      list-style: none;
@@ -139,6 +143,15 @@ input
     border-color: #0065FC;
 }
 
+.boutonrecherche i{
+    display: none;
+}
+
+.lieu{
+    font-weight: bolder;
+    color: black;
+}
+
 .fa-heart, 
 .fa-child,
 .fa-money-bill-wave,
@@ -149,6 +162,10 @@ input
     border-radius: 50%;
     padding: 25px;
    
+}
+
+.filtremob{
+    display: none;
 }
 
 .titrefiltre

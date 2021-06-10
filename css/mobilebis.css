@@ -1,0 +1,274 @@
+@font-face 
+{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+
+
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.hebergement {
+    color: #DEEBFF;
+}
+
+.activite{
+    color: black;
+
+}
+
+.inscription {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.titre_recherche{
+    
+    text-align: center;
+}
+
+
+.paragraphe_recherche{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.barre_recherche {
+     display: flex;
+    }
+
+
+.fa-map-marker-alt {
+    background-color: #F2F2F2;
+    color: black;
+    border-radius: 10px 0px 0px 10px;
+    padding: 25px;
+}
+input {  
+    border: 1px solid #F2F2F2;
+    width: 100%;
+
+}
+
+
+
+    
+.boutonrecherche{
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0;   
+    border-color: #0065FC;
+    
+
+}
+
+
+.filter_button{
+    display: none;
+}
+
+
+
+
+
+
+.filtres{
+    display: flex;
+    margin-top: 30px;
+  
+    
+}
+
+.titrefiltre{
+    font-weight: bold;
+    font-size: 1em;
+    
+    
+}
+.filtre{
+    
+    width: 100%;
+    padding-right: 0px;
+    margin: 0;
+    border: 0;
+}
+
+.info{
+    font-size: 0.8em;
+
+}
+
+.hebergements{
+    display: flex;
+    flex-flow: column-reverse;
+}
+h1{
+    font-size: 1.2em;
+}
+.fa-money-bill-wave:hover
+   {
+    content : "économique";
+
+}
+
+.fa-heart, .fa-child, .fa-money-bill-wave, .fa-dog {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 25px;
+    display: inline-block;
+}
+/*-------------------------------------------aside populaire--------------------------------------------------*/
+.popularite{
+background-color: #F2F2F2;
+border-radius: 20px;
+padding: 30px;
+margin: 0 0 5px 0;
+}
+
+.populaires{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.populaire{
+}
+
+.titrepopulaire{
+font-size: 1em;
+margin-right: 25px;
+margin-top: 85px;
+margin-left: 26px;
+display: flex;
+flex-direction: column-reverse;
+}
+
+.fa-chart-line{
+    text-align: center;
+}
+
+.figpopulaire{
+background-color: white;
+border-radius: 20px;
+width: 121px;
+height: 172px;
+display: block;
+padding-right: 0px;
+}
+
+.verte, .parquet, .coeur{
+    height: 81px;
+    width: 121px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.nompopulaire{
+    font-size: 0.8em;
+font-weight: bold;
+color: black;
+text-align: center;
+}
+
+.prixpopulaire {
+    font-size: 0.6em;
+    color: black;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.rating {
+    color: #0065FC;
+    font-size: xx-small;
+    text-align: center;
+}
+/*---------------------------------Hébergements à Marseille----------------------*/
+
+.titrehebergement{
+    font-size: 1em;
+    text-align: center;
+    padding: 0;
+}
+
+.exempleshebergements{
+    display: flex;
+flex-wrap: wrap;
+
+}
+
+.fighebergement{
+    background-color: white;
+border-radius: 20px 20px 20px 20px;
+padding-bottom: 20px;
+margin-inline-end: 10px;
+margin-inline-start: 20px;
+}
+
+.lit, .port, .mouette, .mer, .panier, .amina {
+    height: 156px;
+    width: 189px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    padding: 5px 5px 0px 5px;
+}
+
+    .nomhebergement {
+        font-weight: bold;
+        font-size: 0.8em;
+        color: black;
+        padding-left: 8px;
+        line-height: 0px;
+        text-align: center;
+    }
+
+    .prixhebergement {
+        font-size: 0.6em;
+        color: black;
+        padding-left: 8px;
+        text-align: center;
+    }
+    .afficher {
+        font-weight: bold;
+        font-size: 0.8em;
+        color: black;
+        padding-left: 200px;
+        text-align: center;
+    }
+
+    /*------Activités à Marseille----------*/
+
+    .activites {
+        display: block;
+    }
+
+    .titreactivite{
+        font-size: 1.2em;
+
+    }
+
+    .activity{
+        display: flex;
+    }
+
+    
+
