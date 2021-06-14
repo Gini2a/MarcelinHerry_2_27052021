@@ -1,5 +1,9 @@
-a{
-font-size: 0.8em;
+a,h3{
+font-size: 1em;
+}
+
+h1,h2{
+    font-size: 1.6em;
 }
 
 
@@ -10,10 +14,7 @@ font-size: 0.8em;
 }
 
 header{
-    flex-direction: column;
-    justify-content: space-between;
-    margin:0;
-    width: 100%;
+    display: block;
     
 }
 
@@ -38,6 +39,7 @@ header{
 .navliens{
     display: flex;
     width: 100%;
+    text-align: center;
 }
 
 .navigation li{
@@ -56,6 +58,17 @@ header{
     cursor: pointer;
 }
 
+.titre_recherche {
+    margin-bottom: 12px;
+    font-size: 1.6em;
+}
+
+.paragraphe_recherche {
+    font-size: 0.9em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
 .boutonrecherche i{
      display: initial;
     }
@@ -68,7 +81,7 @@ header{
 
     display: flex;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 input{
@@ -91,11 +104,16 @@ padding:0
 
 }
 
+.lieu {
+    font-weight: bolder;
+    color: black;
+    font-size: 1.1em;
+}
 .fa-map-marker-alt {
-background-color: #F2F2F2;
-color: black;
-padding: 15px;
-border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;
+    color: black;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .filtres {
@@ -115,9 +133,179 @@ border-radius: 10px 0px 0px 10px;
 
 .filtre{
     
-border-radius: 50px;
-border: 2px solid #F2F2F2;
-background-color: white;
-padding-right: 10px;
-margin-bottom: 10px;
+    border-radius: 50px;
+    border: 2px solid #F2F2F2;
+    background-color: white;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.filter_button {
+    padding-left: 5px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.fa-heart,.fa-child,.fa-money-bill-wave,.fa-dog{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.fa-info {
+    color: #0065FC;
+    padding: 4px 8px 4px 8px;
+    border-radius: 42px;
+    border: solid 2px #F2F2F2;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.info{
+    font-size: 0.9em;
+}
+/*-----------------------------------section hébergements-------------------------------------------------*/
+.hebergements {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+}
+
+/*-----populaire-----*/
+
+.popularite{
+    margin: 0 0 0 -10px;
+    width: 100%;
+}
+
+.populaires {
+    display: flex;
+    flex-direction: column;
+}
+
+.titrepopulaire {
+    font-weight: bold;
+    margin-left: 45px;
+    width: 85%;
+}
+
+.figpopulaire {
+    background-color: white;
+    border-radius: 20px;  
+    margin-inline-start: 0px;
+    width: 100%;
+}
+
+.coeur{
+    width: 58%;
+    object-fit: cover;
+border: white 5px;
+border-radius: 20px 0 0 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 23px;
+}
+.verte,.parquet {
+    width: 40%;
+    object-fit: cover;
+    border: white 5px;
+    border-radius: 20px 0 0 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 23px;
+}
+
+.nompopulaire {
+    font-size: 1.2em;
+}
+.prixpopulaire {
+    font-size: 1em;
+    padding-bottom: 25px;
+}
+
+.hebergementex {
+    background-color: white;
+    border-radius: 0px;
+}
+
+.exempleshebergements {
+    display: flex;
+    flex-direction: column;
+}
+
+.exemplehebergement{
+    padding-bottom: 0px;
+}
+
+
+.fighebergement {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 10px;
+    margin-inline-end: 60px;
+    margin-inline-start: 0px;
+    box-shadow: 2px 1px 5px 2px #F2F2F2;
+    width: 100%;
+}
+
+.lit, .port, .mouette, .mer, .panier, .amina {
+    height: 156px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    padding: 5px 5px 0px 5px;
+    width: 97%;
+
+}
+/*---------------------------activités à Marseille------------------------------------*/
+
+
+.titreactivite{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+}
+
+.pomegues_frioul, .garde_longchamp{
+    display: none;
+}
+
+.pom_mob, .fri_mob, .garde_mob, .long_mob{
+    display:initial
+}
+
+.figactivitepc, .figactivitePo, .figactiviteF, .figactiviteG, .figactiviteL{
+   height: 259.4px;
+   width: 90%;
+}
+
+.imgH, .imgP, .imgF, .imgG, .imgL{
+    height: 161px;
+    width: 100%;
+}
+/*----------------------------------------footer---------------------------------*/
+footer{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+
+.footer{
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.propos {
+    padding-left: 0px;
+
 }

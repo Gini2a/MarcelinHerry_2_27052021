@@ -8,8 +8,19 @@
     font-family: 'Raleway';
     src: url('../fonts/Raleway-VariableFont_wght.ttf');
 }
+
+
+h1, h2{
+    font-size: 1.8em;
+    font-weight: bold;
+
+}
+
+h3{
+    font-size: 1.2em;
+}
 a{
-    font-size: 1em;
+    font-size: 1.2em;
     color: black;
     text-decoration: none;
 }
@@ -23,11 +34,12 @@ header
 {
     display: flex;
     justify-content: space-between; 
+    align-items: flex-end;
 }
 
 .logo 
 {
-    float:left ;  
+    float:,none ;  
     width: 80px;
 }
 
@@ -43,18 +55,32 @@ ul
      padding-inline-start: 0px;
 }
 
+.navigation li{
+    
+    border-top: 2px solid transparent;
+    border-collapse: collapse;
+    padding-top: 10px;
+    width: 100%;
+
+}
+
+.navigation  li:hover
+{
+   
+    border-top:2px solid #0065FC;
+    cursor: pointer;
+   
+}
 
 .navlien1
 {
     color:#0065FC;
-    font-size: small;
     padding: 25px;
 }
 
 .navlien2
 {
     color: black;
-    font-size: small;
     padding: 25px;
 }
 
@@ -62,7 +88,6 @@ ul
 {
     color: #0065FC;
     padding: 25px;
-    font-size: small;
     font-weight: bold;
 }
 
@@ -89,9 +114,9 @@ ul
 }
 .paragraphe_recherche
 {
-    font-size: 1em;
+    font-size: 1.1em;
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .barre_recherche
@@ -100,23 +125,7 @@ ul
 
 }
 
-.filtres
-{
-display: flex;
-margin-top: 30px;
-}
 
-.filtre
-{
-    display: flex;
-}
-
-
-.filtres:hover
-{
-    color :aqua;
-    text-decoration:blink ;
-}
 
 .fa-map-marker-alt
 {
@@ -138,8 +147,8 @@ input
     background-color: #0065FC;
     color: white;
     font-weight: bold;
-    border-radius:0px 10px 10px 0px ;
-    padding: 25px;
+    border-radius:0px 20px 20px 0px ;
+    width: 150px;
     border-color: #0065FC;
 }
 
@@ -150,6 +159,7 @@ input
 .lieu{
     font-weight: bolder;
     color: black;
+    font-size: 1.2em;
 }
 
 .fa-heart, 
@@ -160,9 +170,35 @@ input
     color: #0065FC;
     background-color:#DEEBFF;
     border-radius: 50%;
-    padding: 25px;
+    padding: 20px;
+    margin-top: -1px;
+    margin-left: -1px;
+    font-size: 20px;
    
 }
+
+.fa-heart:hover
+{   background-color: pink;
+    color: red;   
+}
+
+
+.fa-dog:hover
+{   background-color: lightgreen;
+    color:black;
+
+}
+.fa-child:hover
+{   background-color:lightsalmon;
+    color:black;
+}
+
+.fa-money-bill-wave:hover
+{background-color:yellow;
+    color:green;
+}
+
+
 
 .filtremob{
     display: none;
@@ -177,7 +213,7 @@ input
 
 .filtres
 {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     
 }
@@ -190,6 +226,8 @@ input
     margin: 0 15px;
     padding-right: 30px;
 }
+
+
 
 .filter_button
 {
@@ -204,18 +242,18 @@ input
 {
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: small;
+    font-size: 1.1em;
       
 }
 
 .fa-info
 {
     color:#0065FC;
-    padding:1px 4px 1px 4px;
+    padding:4px 9px 4px 9px;
     border-radius: 50px;
     border: solid 2px #F2F2F2;
     margin-right: 10px;
-    float: left;
+    
 }
         
 
@@ -230,6 +268,7 @@ input
     
     background-color: #F2F2F2;
     border-radius: 20px;
+    padding-bottom: 45px;
  
     
 }
@@ -245,8 +284,16 @@ input
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
        
 }
+
+.exemplehebergement
+{
+    padding-bottom: 10px;
+
+}
+
 
 
 
@@ -268,9 +315,10 @@ input
 {
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-inline-end: 20px;
-    margin-inline-start: 20px
+    margin-inline-start: 20px;
+    box-shadow :  2px  1px  5px  2px #F2F2F2
 }
 
 .nomhebergement
@@ -306,12 +354,6 @@ input
   
 }
 
-.titrepopulaire
-{
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
 .fa-chart-line{
     float: right;
 }
@@ -328,9 +370,9 @@ input
 {
     background-color: white;
     border-radius: 20px;
-    width: 350px;
+    width: 438px;
     display: inline-flex;
-    padding-right: 40px;  
+    
 }
 
 .verte, 
@@ -360,38 +402,54 @@ input
 {
     font-size: 1em;
     color: black;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .rating
 {
-color: #0065FC;
-font-size: x-small;
+    color: #0065FC;
+    font-size: x-small;
+    padding-left: 8px;
 }
+
+.ratingpop
+{
+    color: #0065FC;
+    font-size: x-small;
+}
+}
+
 
 span{
     color: #F2F2F2   
 }
 /*-----------------------------------------------------------------------------SECTION ACTIVITES A MARSEILLE-----------------------------------------------------------------------------*/
+.pom_mob, .fri_mob, .garde_mob, .long_mob{
+    display:none
+}
+
+
+
+
+
+
 .activity
 {
     display: flex;
+    justify-content: space-between;
+    margin-inline-start: -40px;
 }
-.activites
-{
-    display: flex;
-    margin-top: 10px;
-}
+
 
 .titreactivite
 {
-    display: block;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 .nomactivite
 {
     font-weight: bold;
-    font-size: small;
     color: black;
     padding-left: 20px;
     line-height: 5px;
@@ -399,8 +457,8 @@ span{
 
 .imgH
 {                     /*div 1 et 3*/
-    height: 390px;
-    width: 320px;
+    height: 560px;
+    width: 400px;
     border-radius:20px 20px 0 0 ;
     object-fit: cover;  
 }
@@ -409,8 +467,8 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    height: 425px;
-    width: 320px;
+    height: 610px;
+    width: 400px;
     box-shadow: 0 0 12px #F2F2F2;
 }
 /***************************************************div2 Pomègues Fioul**********************************************************/
@@ -424,16 +482,16 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    height: 220px;
-    width: 320px;
+    height: 300px;
+    width: 400px;
+    padding-bottom: 5px;
     box-shadow: 0 0 12px #F2F2F2;
-    padding-bottom: 15px;
 }
 
 .imgP
 {
-    height: 195px;
-    width: 320px;
+    height: 250px;
+    width: 400px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
@@ -442,31 +500,50 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    height: 135px;
-    width: 320px;
+    width: 400px;
     box-shadow: 0 0 12px #F2F2F2;
+    padding-bottom: 5px;
+    height: 282px;
+}
+
+.figactiviteG{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0 0 12px #F2F2F2;
+    padding-bottom: 5px;
+    height: 285px;
+}
+
+.figactiviteL{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0 0 12px #F2F2F2;
+    padding-bottom: 5px;
+    height: 278px;
 }
 
 .imgF
 {
-    height: 100px;
-    width: 320px;
+    height: 232px;
+    width: 400px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
   
  .imgG
  {
-     height: 130px;
-     width: 320px;
+     height: 235px;
+     width: 400px;
      object-fit: cover;
      border-radius: 20px 20px 0 0;
  }
 
  .imgL
  {
-    height: 165px;
-    width: 320px;
+    height: 228px;
+    width: 400px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;    
  }   
@@ -484,14 +561,14 @@ span{
     background-color: #F2F2F2;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .propos,
 .nos_hebergements,
 .assistance
 {
-    font-size: small;
+    font-size: 0.8em;
     color: black; 
 }
 
@@ -503,4 +580,13 @@ span{
 .titrefooter
 {
     font-weight:bold;
+    font-size: 1.2em;
+}
+
+.propos{
+    padding-left: 20px;
+}
+
+.assistance{
+    padding-right: 400px;
 }
