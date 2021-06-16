@@ -10,7 +10,8 @@ h1,h2{
 
 .logo{
 
-    width: 125px;
+    width: 100px;
+    padding-left: 10px;
 }
 
 header{
@@ -18,44 +19,48 @@ header{
     
 }
 
-.mobile{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.inscriremob{
-    display: initial;
-    color: #0065FC;
-    font-weight: bold;
-
-}
-.inscription{
-    display: none;
-}
-
 .navliens{
     display: flex;
     width: 100%;
-    text-align: center;
+    margin-right: inherit;
+    padding-inline-start: inherit;
 }
 
-.navigation li{
-    border-bottom: 4px solid #F2F2F2;
-    border-collapse: collapse;
-    padding-bottom: 10px;
-    width: 100%;
 
+.navlien1{
+    color: #0065FC;
+    padding-left: 25px;
+    padding right: 20px;
 }
 
-.navigation  li:hover
-{
-    border-top:none;
-    border-bottom:4px solid #0065FC;
+.hebergement{
+    padding-right: 50px;
+}
 
-    cursor: pointer;
+.inscription{
+    color: #0065FC;
+    font-weight: bold;
+    position: relative;
+    top: -65px;
+    left: -72px;
+    border-bottom: none;
+}
+
+
+.navigation li {
+    border-top:inherit ;
+        border-bottom: 2px solid #F2F2F2;
+        border-collapse: collapse;
+        padding-top: 10px;
+        width: 100%;
+}
+
+.navigation li:hover {
+    border-top: inherit;
+        border-top: 2px solid #0065FC;
+        border-collapse: collapse;
+        padding-top: 10px;
+        width: 100%;
 }
 
 .titre_recherche {
@@ -172,13 +177,13 @@ padding:0
 .hebergements {
     display: flex;
     flex-flow: column-reverse;
-    align-items: center;
+    ;align-items: center
 }
 
 /*-----populaire-----*/
 
 .popularite{
-    margin: 0 0 0 -10px;
+    padding: 0;
     width: 100%;
 }
 

@@ -29,6 +29,11 @@ body
     font-family: Raleway, "sans-serif";  
 }
 
+.header_main{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 
 header 
 {
@@ -40,7 +45,7 @@ header
 .logo 
 {
     float:,none ;  
-    width: 80px;
+    width: 160px;
 }
 
 .inscriremob{
@@ -122,10 +127,9 @@ ul
 .barre_recherche
 {
     display: flex;
+    height: 50px;
 
 }
-
-
 
 .fa-map-marker-alt
 {
@@ -133,12 +137,13 @@ ul
     color: black;
     padding: 25px;
     border-radius:10px 0px 0px 10px ;
+    padding: 17px 20px 0 20px;
     
 }
 
 input
 {
-    padding: 25px;
+    padding: 0 0 0 20px;
     border: 1px solid #F2F2F2;  
 }
 
@@ -148,8 +153,11 @@ input
     color: white;
     font-weight: bold;
     border-radius:0px 20px 20px 0px ;
-    width: 150px;
+    padding: 0 20px;
     border-color: #0065FC;
+    font-family: 'raleway';
+    font-size: 1.2em;
+    cursor: pointer;
 }
 
 .boutonrecherche i{
@@ -157,9 +165,10 @@ input
 }
 
 .lieu{
-    font-weight: bolder;
+    font-weight: bold;
     color: black;
     font-size: 1.2em;
+    font-family: 'raleway';
 }
 
 .fa-heart, 
@@ -178,24 +187,24 @@ input
 }
 
 .fa-heart:hover
-{   background-color: pink;
-    color: red;   
+{   background-color: #0065FC;
+    color:white;   
 }
 
 
 .fa-dog:hover
-{   background-color: lightgreen;
-    color:black;
+{   background-color:#0065FC;
+    color:white;
 
 }
 .fa-child:hover
-{   background-color:lightsalmon;
-    color:black;
+{   background-color:#0065FC;
+    color:white;
 }
 
 .fa-money-bill-wave:hover
-{background-color:yellow;
-    color:green;
+{background-color:#0065FC;
+    color:white;
 }
 
 
@@ -227,15 +236,20 @@ input
     padding-right: 30px;
 }
 
+.filter_button:hover{
+    background-color: #0065FC;
+    color:white
+}
 
 
 .filter_button
 {
-   padding-left: 30px;
-   background-color:transparent;
+   padding-left: 15px;
+   background-color:white;
    border:none;
    font-weight: bold; 
-   font-size: 1.2em;           
+   font-size: 1.2em;  
+   font-family: 'raleway'         
 }
 
 .info
@@ -276,8 +290,8 @@ input
 .titrehebergement
 {
     font-weight: bold;
-    padding-left: 20px;
-    padding-top: 20px;
+    margin-left: 42px;
+    margin-top: 50px;
 }
 
 .exempleshebergements
@@ -293,8 +307,6 @@ input
     padding-bottom: 10px;
 
 }
-
-
 
 
 .lit,
@@ -326,7 +338,7 @@ input
     font-weight: bold;
     font-size: 1.2em;
     color: black;
-    padding-left: 8px;
+    padding-left: 20px;
     line-height: 0px;       
 }
 
@@ -334,7 +346,7 @@ input
 {
     font-size:1em;
     color: black;
-    padding-left: 8px;
+    padding-left: 20px;
 }
 
 .afficher
@@ -342,20 +354,19 @@ input
     font-weight: bold;
     font-size: 1.2em;
     color: black;
-    padding-left: 40px;
+    margin-left: 42px;
 }
 /*---------------------------------------------------------------------------------------------------------------------------Les plus populaires---------------------------------------------------------------------------*/
 .popularite
 {
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin:0px 20px 0px 20px;
-    padding: 30px; 
-  
+    margin:0 0 0 20px;
 }
 
 .fa-chart-line{
     float: right;
+    margin-right: 40px;
 }
 
 .populaires
@@ -363,6 +374,11 @@ input
     display: flex;
     flex-direction: column;
       
+}
+
+.titrepopulaire{
+    margin-top: 50px;
+    margin-left: 42px;
 }
 
 
@@ -379,7 +395,7 @@ input
 .coeur,
 .parquet
 {
-    height: 165px;
+    height: 200px;
     width: 180px;
     object-fit: cover;
     border :white 5px;
@@ -408,14 +424,14 @@ input
 .rating
 {
     color: #0065FC;
-    font-size: x-small;
-    padding-left: 8px;
+    font-size: 1em;
+    padding-left: 20px;
 }
 
 .ratingpop
 {
     color: #0065FC;
-    font-size: x-small;
+    font-size: 1em;
 }
 }
 
@@ -469,7 +485,7 @@ span{
     border-radius: 20px;
     height: 610px;
     width: 400px;
-    box-shadow: 0 0 12px #F2F2F2;
+    box-shadow: 12px 12px 12px #F2F2F2;
 }
 /***************************************************div2 Pomègues Fioul**********************************************************/
 .pomegues_frioul
@@ -485,7 +501,7 @@ span{
     height: 300px;
     width: 400px;
     padding-bottom: 5px;
-    box-shadow: 0 0 12px #F2F2F2;
+    box-shadow: 12px 12px 12px #F2F2F2;
 }
 
 .imgP
@@ -501,7 +517,7 @@ span{
     background-color: white;
     border-radius: 20px;
     width: 400px;
-    box-shadow: 0 0 12px #F2F2F2;
+    box-shadow: 12px 12px 12px #F2F2F2;
     padding-bottom: 5px;
     height: 282px;
 }
@@ -510,7 +526,7 @@ span{
     background-color: white;
     border-radius: 20px;
     width: 400px;
-    box-shadow: 0 0 12px #F2F2F2;
+    box-shadow: 12px 12px 12px #F2F2F2;
     padding-bottom: 5px;
     height: 285px;
 }
@@ -519,7 +535,7 @@ span{
     background-color: white;
     border-radius: 20px;
     width: 400px;
-    box-shadow: 0 0 12px #F2F2F2;
+    box-shadow: 12px 12px 12px #F2F2F2;
     padding-bottom: 5px;
     height: 278px;
 }
@@ -556,6 +572,12 @@ span{
 
 /********************************************footer*****************************************/
 
+footer{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
 .footer
 {
     background-color: #F2F2F2;
@@ -568,13 +590,15 @@ span{
 .nos_hebergements,
 .assistance
 {
-    font-size: 0.8em;
+    font-size: 1.2em;
     color: black; 
 }
 
 .listefooter
 {
     flex-direction: column;
+  
+
 }
 
 .titrefooter
