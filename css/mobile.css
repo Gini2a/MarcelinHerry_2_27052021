@@ -1,12 +1,15 @@
 a,h3{
-font-size: 1em;
+font-size: 1.2em;
 }
 
 h1,h2{
     font-size: 1.6em;
 }
 
-
+.header_main{
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .logo{
 
@@ -22,8 +25,8 @@ header{
 .navliens{
     display: flex;
     width: 100%;
-    margin-right: inherit;
-    padding-inline-start: inherit;
+    margin-right: 0;
+    padding-inline-start: 0;
 }
 
 
@@ -43,24 +46,16 @@ header{
     position: relative;
     top: -65px;
     left: -72px;
-    border-bottom: none;
+    border-bottom: 0;
 }
 
 
 .navigation li {
-    border-top:inherit ;
-        border-bottom: 2px solid #F2F2F2;
-        border-collapse: collapse;
-        padding-top: 10px;
-        width: 100%;
+    border:0
 }
 
 .navigation li:hover {
-    border-top: inherit;
-        border-top: 2px solid #0065FC;
-        border-collapse: collapse;
-        padding-top: 10px;
-        width: 100%;
+    border: 0;
 }
 
 .titre_recherche {
@@ -177,7 +172,6 @@ padding:0
 .hebergements {
     display: flex;
     flex-flow: column-reverse;
-    ;align-items: center
 }
 
 /*-----populaire-----*/
@@ -185,6 +179,8 @@ padding:0
 .popularite{
     padding: 0;
     width: 100%;
+    border-radius: 0;
+    margin: 0;
 }
 
 .populaires {
@@ -194,15 +190,35 @@ padding:0
 
 .titrepopulaire {
     font-weight: bold;
-    margin-left: 45px;
-    width: 85%;
+    margin-left: 10px;
+    width: 95%;
+}
+.fa-chart-line {
+    float: right;
+    margin-right: 0px;
+}
+
+.pomegues_frioul {
+    margin-right: 0;
 }
 
 .figpopulaire {
     background-color: white;
     border-radius: 20px;  
     margin-inline-start: 0px;
-    width: 100%;
+    width: 95%;
+    margin-left: 10px;
+    margin-bottom: 0;   
+}
+
+.figpopulaire3 {
+    background-color: white;
+    border-radius: 20px;  
+    margin-inline-start: 0px;
+    width: 95%;
+    margin-left: 10px;
+    margin-bottom: 35px;
+
 }
 
 .coeur{
@@ -244,6 +260,10 @@ padding-right: 23px;
     flex-direction: column;
 }
 
+.titrehebergement{
+    margin-left: 10px;
+}
+
 .exemplehebergement{
     padding-bottom: 0px;
 }
@@ -253,10 +273,20 @@ padding-right: 23px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 10px;
-    margin-inline-end: 60px;
-    margin-inline-start: 0px;
     box-shadow: 2px 1px 5px 2px #F2F2F2;
-    width: 100%;
+    width: 95%;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.fighebergement6 {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 10px;
+    box-shadow: 2px 1px 5px 2px #F2F2F2;
+    width: 95%;
+    margin-left: 10px;
+    margin-bottom: 35px;
 }
 
 .lit, .port, .mouette, .mer, .panier, .amina {
@@ -265,7 +295,13 @@ padding-right: 23px;
     object-fit: cover;
     padding: 5px 5px 0px 5px;
     width: 97%;
+}
 
+    .afficher {
+        font-weight: bold;
+        font-size: 1.2em;
+        color: black;
+        margin-left: 10px;
 }
 /*---------------------------activités à Marseille------------------------------------*/
 
@@ -273,6 +309,7 @@ padding-right: 23px;
 .titreactivite{
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 10px;
 }
 
 .activity{
@@ -280,21 +317,22 @@ padding-right: 23px;
     flex-direction: column;
 }
 
-.pomegues_frioul, .garde_longchamp{
-    display: none;
-}
 
-.pom_mob, .fri_mob, .garde_mob, .long_mob{
-    display:initial
-}
+
+
 
 .figactivitepc, .figactivitePo, .figactiviteF, .figactiviteG, .figactiviteL{
-   height: 259.4px;
-   width: 90%;
+   height: 269.4px;
+   width: 95%;
+   margin-bottom: 0;
+   margin-inline-start:0;
+   margin-inline-end: 0;
+   margin-left: 10px;
+
 }
 
 .imgH, .imgP, .imgF, .imgG, .imgL{
-    height: 161px;
+    height: 207px;
     width: 100%;
 }
 /*----------------------------------------footer---------------------------------*/
@@ -310,7 +348,16 @@ footer{
     padding-left: 20px;
 }
 
+.footer li{
+    padding-bottom: 12px;
+}
+
+
 .propos {
     padding-left: 0px;
 
+}
+
+.assistance{
+    padding-right: 0;
 }

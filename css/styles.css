@@ -26,12 +26,13 @@ a{
 }
 body
 {
+    margin: 0;
     font-family: Raleway, "sans-serif";  
 }
 
 .header_main{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -64,7 +65,7 @@ ul
     
     border-top: 2px solid transparent;
     border-collapse: collapse;
-    padding-top: 10px;
+    padding-top: 45px;
     width: 100%;
 
 }
@@ -172,7 +173,6 @@ input
 }
 
 .fa-heart, 
-.fa-child,
 .fa-money-bill-wave,
 .fa-dog 
 {
@@ -184,6 +184,17 @@ input
     margin-left: -1px;
     font-size: 20px;
    
+}
+
+.fa-child{
+    color: #0065FC;
+    background-color:#DEEBFF;
+    border-radius: 50%;
+    padding: 20px 22px 20px 22px;
+    margin-top: -1px;
+    margin-left: -1px;
+    font-size: 20px;
+
 }
 
 .fa-heart:hover
@@ -317,20 +328,19 @@ input
 .amina 
 {
     height: 156px;
-    width: 352px;
+    width: 340px;
     border-radius:20px 20px 0 0;
     object-fit: cover;
     padding:5px 5px 0px 5px 
 }
 
-.fighebergement
+.fighebergement, .fighebergement6
 {
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 10px;
-    margin-inline-end: 20px;
-    margin-inline-start: 20px;
-    box-shadow :  2px  1px  5px  2px #F2F2F2
+    box-shadow :  2px  1px  5px  2px #F2F2F2;
+   
 }
 
 .nomhebergement
@@ -391,6 +401,15 @@ input
     
 }
 
+.figpopulaire3
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 438px;
+    display: inline-flex;
+
+}
+
 .verte, 
 .coeur,
 .parquet
@@ -433,27 +452,18 @@ input
     color: #0065FC;
     font-size: 1em;
 }
-}
 
 
 span{
     color: #F2F2F2   
 }
 /*-----------------------------------------------------------------------------SECTION ACTIVITES A MARSEILLE-----------------------------------------------------------------------------*/
-.pom_mob, .fri_mob, .garde_mob, .long_mob{
-    display:none
-}
-
-
-
-
-
-
 .activity
 {
     display: flex;
     justify-content: space-between;
-    margin-inline-start: -40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 
@@ -474,7 +484,7 @@ span{
 .imgH
 {                     /*div 1 et 3*/
     height: 560px;
-    width: 400px;
+    width: 390px;
     border-radius:20px 20px 0 0 ;
     object-fit: cover;  
 }
@@ -483,31 +493,36 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    height: 610px;
-    width: 400px;
+    height: 630px;
+    width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
+    margin-inline-start:0;
+    margin-inline-end: 0;
+    margin-right: 20px;
 }
 /***************************************************div2 Pomègues Fioul**********************************************************/
 .pomegues_frioul
 {
     flex-direction: column;
-    padding-left: 10px;      
+    margin-right: 20px;
 }
 
 .figactivitePo
 {
     background-color: white;
     border-radius: 20px;
-    height: 300px;
-    width: 400px;
-    padding-bottom: 5px;
+    height: 320px;
+    width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
+    margin-bottom: 61px;
+    margin-inline-start:0;
+    margin-inline-end: 0;
 }
 
 .imgP
 {
     height: 250px;
-    width: 400px;
+    width: 390px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
@@ -516,42 +531,45 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    width: 400px;
+    width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
-    padding-bottom: 5px;
-    height: 282px;
+    height: 250px;
+    margin-inline-start:0;
+    margin-inline-end: 0;
 }
 
 .figactiviteG{
     background-color: white;
     border-radius: 20px;
-    width: 400px;
+    width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
-    padding-bottom: 5px;
-    height: 285px;
+    height: 292px;
+    margin-inline-start:0;
+    margin-inline-end: 0;
 }
 
 .figactiviteL{
     background-color: white;
     border-radius: 20px;
-    width: 400px;
+    width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
-    padding-bottom: 5px;
-    height: 278px;
+    height: 298px;
+    margin-inline-start:0;
+    margin-inline-end: 0;
 }
 
 .imgF
 {
-    height: 232px;
-    width: 400px;
+    height: 180px;
+    width: 390px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
   
  .imgG
  {
-     height: 235px;
-     width: 400px;
+     height: 222px;
+     width: 390px;
      object-fit: cover;
      border-radius: 20px 20px 0 0;
  }
@@ -559,7 +577,7 @@ span{
  .imgL
  {
     height: 228px;
-    width: 400px;
+    width: 390px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;    
  }   
@@ -573,8 +591,7 @@ span{
 /********************************************footer*****************************************/
 
 footer{
-    margin-left: -8px;
-    margin-right: -8px;
+   
 }
 
 
@@ -614,3 +631,8 @@ footer{
 .assistance{
     padding-right: 400px;
 }
+
+.footer li{
+    padding-bottom: 12px;
+}
+

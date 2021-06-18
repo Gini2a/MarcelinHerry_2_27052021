@@ -2,25 +2,39 @@
 {
     font-family: 'Raleway';
     src: url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+
+h1,h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.2em;
+}
 
 
 
+
+.header_main {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
 header{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .logo{
-    width: 50px;
+    width: 120px;
 }
 
 ul{
     display: flex;
-    flex-direction: column;
     margin-right: 0;
 }
 
@@ -45,7 +59,7 @@ ul{
 
 
 .paragraphe_recherche{
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -58,7 +72,6 @@ ul{
     background-color: #F2F2F2;
     color: black;
     border-radius: 10px 0px 0px 10px;
-    padding: 25px;
 }
 input {  
     border: 1px solid #F2F2F2;
@@ -81,52 +94,36 @@ input {
 }
 
 
-.filter_button{
-    display: none;
-}
-
-
-
-
-
-
 .filtres{
     display: flex;
-    margin-top: 30px;
-  
-    
+    flex-direction: column;
+    margin-top: 0;  
 }
 
 .titrefiltre{
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
+    position: relative;
+    left: 50%;
     
     
 }
 .filtre{
     
-    width: 100%;
+    width: 75%;
     padding-right: 0px;
-    margin: 0;
-    border: 0;
+    margin-bottom: 5px;
+    margin: auto;
 }
 
 .info{
-    font-size: 0.8em;
+    font-size: 1em;
 
 }
 
 .hebergements{
     display: flex;
     flex-flow: column-reverse;
-}
-h1{
-    font-size: 1.2em;
-}
-.fa-money-bill-wave:hover
-   {
-    content : "économique";
-
 }
 
 .fa-heart, .fa-child, .fa-money-bill-wave, .fa-dog {
@@ -140,79 +137,68 @@ h1{
 .popularite{
 background-color: #F2F2F2;
 border-radius: 20px;
-padding: 30px;
 margin: 0 0 5px 0;
 }
 
-.populaires{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-}
-
-.populaire{
-}
 
 .titrepopulaire{
-font-size: 1em;
-margin-right: 25px;
-margin-top: 85px;
-margin-left: 26px;
-display: flex;
-flex-direction: column-reverse;
+text-align: center;
 }
 
 .fa-chart-line{
     text-align: center;
 }
 
-.figpopulaire{
+.figpopulaire, .figpopulaire3,.fighebergement, .fighebergement6{
 background-color: white;
 border-radius: 20px;
-width: 121px;
-height: 172px;
+width: 85%;
+height: 370px;
 display: block;
-padding-right: 0px;
+margin: auto;
+margin-bottom: 20px;
 }
 
 .verte, .parquet, .coeur{
-    height: 81px;
-    width: 121px;
+    height: 245px;
+    width: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     padding: 0;
 }
 
 .nompopulaire{
-    font-size: 0.8em;
+    font-size: 1.2em;
 font-weight: bold;
 color: black;
 text-align: center;
+line-height: 0;
 }
 
 .prixpopulaire {
-    font-size: 0.6em;
+    font-size: 1em;
     color: black;
     text-align: center;
     padding-bottom: 0;
 }
 
-.rating {
+.ratingpop, .rating {
     color: #0065FC;
-    font-size: xx-small;
+    font-size:1em;
     text-align: center;
 }
+
+
 /*---------------------------------Hébergements à Marseille----------------------*/
 
 .titrehebergement{
-    font-size: 1em;
     text-align: center;
     padding: 0;
 }
 
 .exempleshebergements{
     display: flex;
-flex-wrap: wrap;
+flex-direction: column;
 
 }
 
@@ -220,13 +206,12 @@ flex-wrap: wrap;
     background-color: white;
 border-radius: 20px 20px 20px 20px;
 padding-bottom: 20px;
-margin-inline-end: 10px;
-margin-inline-start: 20px;
+margin: auto;
 }
 
 .lit, .port, .mouette, .mer, .panier, .amina {
-    height: 156px;
-    width: 189px;
+    height: 245px;
+    width: 98%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     padding: 5px 5px 0px 5px;
@@ -234,7 +219,6 @@ margin-inline-start: 20px;
 
     .nomhebergement {
         font-weight: bold;
-        font-size: 0.8em;
         color: black;
         padding-left: 8px;
         line-height: 0px;
@@ -242,14 +226,14 @@ margin-inline-start: 20px;
     }
 
     .prixhebergement {
-        font-size: 0.6em;
+        font-size: 1em;
         color: black;
         padding-left: 8px;
         text-align: center;
     }
     .afficher {
         font-weight: bold;
-        font-size: 0.8em;
+        font-size: 1.2em;
         color: black;
         padding-left: 200px;
         text-align: center;
@@ -262,13 +246,37 @@ margin-inline-start: 20px;
     }
 
     .titreactivite{
-        font-size: 1.2em;
+        text-align: center;
 
     }
 
     .activity{
         display: flex;
+        flex-direction: column;
+    }
+    .figactivitepc, .figactivitePo, .figactiviteF, .figactiviteG, .figactiviteL{
+        height: 300px;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 10px;
+     
+     }
+
+     .pomegues_frioul {
+         margin-right: 0;
+     }
+     
+     .imgH, .imgP, .imgF, .imgG, .imgL{
+         height: 245px;
+         width: 100%;
+     }
+
+    .footer{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
-    
-
+    .assistance{
+        padding-right: 0;
+    }
