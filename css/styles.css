@@ -206,34 +206,16 @@ input
 
 }
 
-.fa-heart:hover
-{   background-color: #0065FC;
-    color:white;   
+.filters{
+    display: flex;
 }
-
-
-.fa-dog:hover
-{   background-color:#0065FC;
-    color:white;
-
-}
-.fa-child:hover
-{   background-color:#0065FC;
-    color:white;
-}
-
-.fa-money-bill-wave:hover
-{background-color:#0065FC;
-    color:white;
-}
-
-
 
 .titrefiltre
 {
     margin-right: 20px;
     font-weight: bold;
     font-size: 0.9em;
+    margin-top: 45px;
 }
 
 .filtres
@@ -252,9 +234,17 @@ input
     padding-right: 15px;
 }
 
-.filtre:hover
+.filtre:hover{
+     background-color:#0065FC;
+    color: #DEEBFF;
+}
+
+
+
+.filtre i:hover
 {
     background-color:#0065FC;
+    color: white;
      
 }
 

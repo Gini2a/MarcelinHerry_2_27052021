@@ -10,8 +10,12 @@ a,h3{
 font-size: 1em;
 }
 
-h1,h2{
+h1{
     font-size: 1.4em;
+}
+
+h2{
+    font-size:1.2em ;
 }
 
 .header_main{
@@ -77,11 +81,10 @@ header{
 
 .titre_recherche {
     margin-bottom: 12px;
-    font-size: 1.4em;
 }
 
 .paragraphe_recherche {
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-top: 0px;
     margin-bottom: 30px;
 }
@@ -125,13 +128,18 @@ padding:0
 .lieu {
     font-weight: bolder;
     color: black;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .fa-map-marker-alt {
     background-color: #F2F2F2;
     color: black;
     padding: 15px;
     border-radius: 10px 0px 0px 10px;
+}
+
+
+.filters{
+    display: block;
 }
 
 .filtres {
@@ -141,7 +149,11 @@ padding:0
 }
 
 .titrefiltre{
-    display: none;
+    font-size: 1em;  
+}
+
+.filters{
+    display: block;
 }
 
 .filtre{
@@ -213,10 +225,6 @@ padding:0
     margin-right: 0px;
 }
 
-.pomegues_frioul {
-    margin-right: 0;
-}
-
 .figpopulaire {
     background-color: white;
     border-radius: 20px;  
@@ -261,11 +269,12 @@ padding-right: 23px;
 }
 
 .nompopulaire {
-    font-size: 1.2em;
+    margin-bottom: 0;
 }
 .prixpopulaire {
-    font-size: 1em;
-    padding-bottom: 25px;
+    font-size: 0.9em;
+    margin-top: 5px;
+    padding-bottom: 35px;
 }
 
 .hebergementex {
@@ -319,7 +328,7 @@ padding-right: 23px;
 
     .afficher {
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 1em;
         color: black;
         margin-left: 10px;
 }
@@ -338,6 +347,9 @@ padding-right: 23px;
     flex-direction: column;
 }
 
+.pomegues_frioul {
+    margin-right: 0;
+}
 
 
 
