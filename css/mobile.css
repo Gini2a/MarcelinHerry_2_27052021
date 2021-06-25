@@ -1,9 +1,17 @@
+#bloc_page{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
 a,h3{
-font-size: 1.2em;
+font-size: 1em;
 }
 
 h1,h2{
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .header_main{
@@ -14,7 +22,8 @@ h1,h2{
 .logo{
 
     width: 100px;
-    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 header{
@@ -27,14 +36,16 @@ header{
     width: 100%;
     margin-right: 0;
     padding-inline-start: 0;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 10px;
 }
 
-
-.navlien1{
-    color: #0065FC;
-    padding-left: 25px;
-    padding right: 20px;
+.navlien1:active{
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 10px;
+    border-top: 0;
 }
+
 
 .hebergement{
     padding-right: 50px;
@@ -51,16 +62,22 @@ header{
 
 
 .navigation li {
-    border:0
+    padding-top: 15px;
 }
 
 .navigation li:hover {
     border: 0;
 }
 
+.recherche{
+    margin-left: 10px;
+
+}
+
+
 .titre_recherche {
     margin-bottom: 12px;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .paragraphe_recherche {
@@ -80,8 +97,9 @@ header{
 .barre_recherche {
 
     display: flex;
-    width: 100%;
+    width: 95%;
     margin-bottom: 30px;
+    
 }
 
 input{
@@ -122,11 +140,6 @@ padding:0
     flex-wrap: wrap;
 }
 
-.filtremob{
-    display: initial;
-    font-weight: bold;
-}
-
 .titrefiltre{
     display: none;
 }
@@ -138,6 +151,8 @@ padding:0
     background-color: white;
     padding-right: 10px;
     margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 0;
 }
 
 .filter_button {
@@ -208,7 +223,7 @@ padding:0
     margin-inline-start: 0px;
     width: 95%;
     margin-left: 10px;
-    margin-bottom: 0;   
+      
 }
 
 .figpopulaire3 {
@@ -218,10 +233,12 @@ padding:0
     width: 95%;
     margin-left: 10px;
     margin-bottom: 35px;
+    margin-top: 0;
 
 }
 
 .coeur{
+    height: 146px;
     width: 58%;
     object-fit: cover;
 border: white 5px;
@@ -232,6 +249,7 @@ padding-left: 5px;
 padding-right: 23px;
 }
 .verte,.parquet {
+    height: 146px;
     width: 40%;
     object-fit: cover;
     border: white 5px;
@@ -253,11 +271,14 @@ padding-right: 23px;
 .hebergementex {
     background-color: white;
     border-radius: 0px;
+    width: 100%;
 }
 
 .exempleshebergements {
     display: flex;
     flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .titrehebergement{
@@ -275,8 +296,7 @@ padding-right: 23px;
     padding-bottom: 10px;
     box-shadow: 2px 1px 5px 2px #F2F2F2;
     width: 95%;
-    margin-left: 10px;
-    margin-bottom: 0;
+    margin: 10px;
 }
 
 .fighebergement6 {
@@ -294,7 +314,7 @@ padding-right: 23px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     padding: 5px 5px 0px 5px;
-    width: 97%;
+    width: 96%;
 }
 
     .afficher {
@@ -311,6 +331,7 @@ padding-right: 23px;
     margin-bottom: 0px;
     margin-left: 10px;
 }
+
 
 .activity{
     display: flex;

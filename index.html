@@ -4,13 +4,15 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" media="screen and (max-width:600px)" href="css/mobile.css" />
-    <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 992px)" href="css/tablette.css"/>
+    <link rel="stylesheet" media="screen and (max-device-width:600px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-device-width: 601px) and (max-device-width: 992px)" href="css/tablette.css"/>
     <script src="https://kit.fontawesome.com/5771381310.js" crossorigin="anonymous"></script>
     <title>Reservia : Locations de vacances de rêve</title>
 </head>
 
 <body>
+    <div id="bloc_page">
+    
 
 <div class=header_main>
     <!--En-tête-->
@@ -42,7 +44,6 @@
                 <input type="search" name="value" class="lieu" placeholder="Marseille, France"/>
                 <button class="boutonrecherche" type="submit"><span class="lycos">Rechercher</span><i class="fas fa-search"></i></button>
             </div>
-            <p class="filtremob">Filtres</p>
             <div class="filtres">
                 <p class="titrefiltre">Filtres</p>
                 <div class="filtre">
@@ -378,6 +379,7 @@
             </nav>
         </div>
     </footer>
+    </div>
 </body>
 
 </html>

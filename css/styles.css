@@ -9,18 +9,22 @@
     src: url('../fonts/Raleway-VariableFont_wght.ttf');
 }
 
+#bloc_page{
+    width: 1199px;
+    margin: auto;
+}
 
 h1, h2{
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-weight: bold;
 
 }
 
 h3{
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 a{
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: black;
     text-decoration: none;
 }
@@ -46,12 +50,9 @@ header
 .logo 
 {
     float:,none ;  
-    width: 160px;
+    width: 100px;
 }
 
-.inscriremob{
-    display: none;
-}
 ul 
 
 {
@@ -84,6 +85,13 @@ ul
     padding: 25px;
 }
 
+.navlien1:active
+{
+    border-top:2px solid #0065FC;
+    padding-top: 45px;
+
+}
+
 .navlien2
 {
     color: black;
@@ -95,6 +103,7 @@ ul
     color: #0065FC;
     padding: 25px;
     font-weight: bold;
+    padding-right: 0
 }
 
 .hebergement
@@ -120,7 +129,7 @@ ul
 }
 .paragraphe_recherche
 {
-    font-size: 1.1em;
+    font-size: 1em;
     margin-top: 0px;
     margin-bottom: 25px;
 }
@@ -157,7 +166,7 @@ input
     padding: 0 20px;
     border-color: #0065FC;
     font-family: 'raleway';
-    font-size: 1.2em;
+    font-size: 0.9em;
     cursor: pointer;
 }
 
@@ -168,7 +177,7 @@ input
 .lieu{
     font-weight: bold;
     color: black;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-family: 'raleway';
 }
 
@@ -220,20 +229,16 @@ input
 
 
 
-.filtremob{
-    display: none;
-}
-
 .titrefiltre
 {
     margin-right: 20px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 .filtres
 {
-    margin-top: 40px;
+    margin-top: 25px;
     display: flex;
     
 }
@@ -244,10 +249,18 @@ input
     border: 2px solid #F2F2F2;
     background-color: white;
     margin: 0 15px;
-    padding-right: 30px;
+    padding-right: 15px;
 }
 
-.filter_button:hover{
+.filtre:hover
+{
+    background-color:#0065FC;
+     
+}
+
+
+.filter_button:hover
+{
     background-color: #0065FC;
     color:white
 }
@@ -255,11 +268,11 @@ input
 
 .filter_button
 {
-   padding-left: 15px;
+   padding-left: 5px;
    background-color:white;
    border:none;
    font-weight: bold; 
-   font-size: 1.2em;  
+   font-size: 0.9em;  
    font-family: 'raleway'         
 }
 
@@ -267,7 +280,7 @@ input
 {
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 1.1em;
+    font-size: 0.9em;
       
 }
 
@@ -294,6 +307,7 @@ input
     background-color: #F2F2F2;
     border-radius: 20px;
     padding-bottom: 45px;
+    width: 67%;
  
     
 }
@@ -310,6 +324,8 @@ input
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
        
 }
 
@@ -327,8 +343,8 @@ input
 .panier,
 .amina 
 {
-    height: 156px;
-    width: 340px;
+    height: 110px;
+    width: 96%;
     border-radius:20px 20px 0 0;
     object-fit: cover;
     padding:5px 5px 0px 5px 
@@ -340,29 +356,34 @@ input
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 10px;
     box-shadow :  2px  1px  5px  2px #F2F2F2;
+    margin: auto;
+    width: 210px;
+    margin-bottom: 15px;
    
 }
 
 .nomhebergement
 {
     font-weight: bold;
-    font-size: 1.2em;
     color: black;
-    padding-left: 20px;
-    line-height: 0px;       
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;     
 }
 
 .prixhebergement
 {
-    font-size:1em;
+    font-size:0.8em;
     color: black;
-    padding-left: 20px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .afficher
 {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: black;
     margin-left: 42px;
 }
@@ -372,6 +393,7 @@ input
     background-color: #F2F2F2;
     border-radius: 20px;
     margin:0 0 0 20px;
+    width: 33%;
 }
 
 .fa-chart-line{
@@ -383,12 +405,13 @@ input
 { 
     display: flex;
     flex-direction: column;
+   
       
 }
 
 .titrepopulaire{
     margin-top: 50px;
-    margin-left: 42px;
+    margin-left: 47px;
 }
 
 
@@ -396,8 +419,9 @@ input
 {
     background-color: white;
     border-radius: 20px;
-    width: 438px;
+    width: 285px;
     display: inline-flex;
+    margin-top: 0;
     
 }
 
@@ -405,7 +429,7 @@ input
 {
     background-color: white;
     border-radius: 20px;
-    width: 438px;
+    width: 285px;
     display: inline-flex;
 
 }
@@ -414,43 +438,43 @@ input
 .coeur,
 .parquet
 {
-    height: 200px;
-    width: 180px;
+    height:115px;
+    width: 120px;
     object-fit: cover;
     border :white 5px;
     border-radius: 20px 0 0 20px ;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 
 .nompopulaire
 {
-    font-size:1.2em;
     font-weight: bold;
     color: black;
 }
 
 .prixpopulaire
 {
-    font-size: 1em;
+    font-size: 0.8em;
     color: black;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .rating
 {
     color: #0065FC;
-    font-size: 1em;
-    padding-left: 20px;
+    font-size: 0.7em;
+    padding-left: 10px;
+    margin-top: 0;
 }
 
 .ratingpop
 {
     color: #0065FC;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 
@@ -462,7 +486,7 @@ span{
 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     flex-wrap: wrap;
 }
 
@@ -483,8 +507,8 @@ span{
 
 .imgH
 {                     /*div 1 et 3*/
-    height: 560px;
-    width: 390px;
+    height: 320px;
+    width: 100%;
     border-radius:20px 20px 0 0 ;
     object-fit: cover;  
 }
@@ -493,11 +517,10 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    height: 630px;
-    width: 390px;
+    height: 360px;
+    width: 260px;
     box-shadow: 12px 12px 12px #F2F2F2;
     margin-inline-start:0;
-    margin-inline-end: 0;
     margin-right: 20px;
 }
 /***************************************************div2 Pomègues Fioul**********************************************************/
@@ -511,18 +534,18 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    height: 320px;
-    width: 390px;
+    height: 187px;
+    width: 260px;
     box-shadow: 12px 12px 12px #F2F2F2;
-    margin-bottom: 61px;
+    margin-bottom: 30px;
     margin-inline-start:0;
     margin-inline-end: 0;
 }
 
 .imgP
 {
-    height: 250px;
-    width: 390px;
+    height: 150px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
@@ -531,9 +554,9 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    width: 390px;
+    width: 260px;
     box-shadow: 12px 12px 12px #F2F2F2;
-    height: 250px;
+    height: 143px;
     margin-inline-start:0;
     margin-inline-end: 0;
 }
@@ -541,9 +564,9 @@ span{
 .figactiviteG{
     background-color: white;
     border-radius: 20px;
-    width: 390px;
+    width: 260px;
     box-shadow: 12px 12px 12px #F2F2F2;
-    height: 292px;
+    height: 176px;
     margin-inline-start:0;
     margin-inline-end: 0;
 }
@@ -551,33 +574,33 @@ span{
 .figactiviteL{
     background-color: white;
     border-radius: 20px;
-    width: 390px;
+    width: 260px;
     box-shadow: 12px 12px 12px #F2F2F2;
-    height: 298px;
+    height: 156px;
     margin-inline-start:0;
     margin-inline-end: 0;
 }
 
 .imgF
 {
-    height: 180px;
-    width: 390px;
+    height: 103px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
   
  .imgG
  {
-     height: 222px;
-     width: 390px;
+     height: 132px;
+     width: 100%;
      object-fit: cover;
      border-radius: 20px 20px 0 0;
  }
 
  .imgL
  {
-    height: 228px;
-    width: 390px;
+    height: 113px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;    
  }   
@@ -603,17 +626,11 @@ footer{
     justify-content: space-between;
 }
 
-.propos,
-.nos_hebergements,
-.assistance
-{
-    font-size: 1.2em;
-    color: black; 
-}
 
 .listefooter
 {
     flex-direction: column;
+    margin-right: 0;
   
 
 }
@@ -621,7 +638,6 @@ footer{
 .titrefooter
 {
     font-weight:bold;
-    font-size: 1.2em;
 }
 
 .propos{
