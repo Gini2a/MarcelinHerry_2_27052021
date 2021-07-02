@@ -61,6 +61,11 @@ header{
     border: 0;
 }
 
+.recherche_filtre{
+    margin-top: 30px;
+    margin-left: 20px ;
+}
+
 .recherche{
     margin-left: 10px;
 
@@ -88,7 +93,7 @@ header{
 .barre_recherche {
 
     display: flex;
-    width: 95%;
+    width: 100%;
     margin-bottom: 30px;
     
 }
@@ -193,6 +198,7 @@ padding:0
     width: 100%;
     border-radius: 0;
     margin: 0;
+    padding-top: 0;
 }
 
 .populaires {
@@ -370,7 +376,7 @@ footer{
 }
 
 .titrefooter {
-    font-size: 1.2em;
+    font-size: 1.2em;git
 }
 
 .footer{

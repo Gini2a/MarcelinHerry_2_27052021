@@ -152,6 +152,7 @@ input {
 }
 /*-------------------------------------------aside populaire--------------------------------------------------*/
 .popularite{
+    padding-top: 0;
 background-color: #F2F2F2;
 border-radius: 20px;
 margin: 0 0 5px 0;
@@ -323,6 +324,7 @@ width: 270px;
     .footer{
        
         display: flex;
+        padding-right: 20px;
         
     }
 
