@@ -12,23 +12,22 @@
 
 
 h1, h2{
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: bold;
 
 }
 
 h3{
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 a{
-    font-size: 1.2em;
     color: black;
     text-decoration: none;
 }
 body
 {
     margin: 0;
-    font-family: Raleway, "sans-serif";  
+    font-family: 'Raleway', "sans-serif";  
 }
 
 .header_main{
@@ -56,7 +55,7 @@ ul
      display: flex;
      list-style: none;
      margin-right: 40px;
-     padding-inline-start: 0px;
+     font-size: 1.4em;
 }
 
 .navigation li{
@@ -294,7 +293,7 @@ input
     background-color: #F2F2F2;
     border-radius: 20px;
     padding-bottom: 45px;
-    width: 66%;
+    width: 70%;
     margin-right: 10px;
     
  
@@ -332,7 +331,7 @@ input
 .amina 
 {
     height: 170px;
-    width: 96%;
+    width: 97%;
     border-radius:20px 20px 0 0;
     object-fit: cover;
     padding:5px 5px 0px 5px 
@@ -361,7 +360,7 @@ input
 
 .prixhebergement
 {
-    font-size:1em;
+    font-size:1.1em;
     color: black;
     padding-left: 10px;
     margin-top: 10px;
@@ -378,11 +377,13 @@ input
 /*---------------------------------------------------------------------------------------------------------------------------Les plus populaires---------------------------------------------------------------------------*/
 .popularite
 {
-    width: 34%;
+    width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 10px;
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
@@ -410,17 +411,9 @@ input
 {
     background-color: white;
     border-radius: 20px;
-    display: inline-flex;
+    display: flex;
  
     
-}
-
-.figpopulaire3
-{
-    background-color: white;
-    border-radius: 20px;
-    display: inline-flex;
-
 }
 
 .verte, 
@@ -428,7 +421,7 @@ input
 .parquet
 {
     height:190px;
-    width: 35%;
+    width: 42%;
     object-fit: cover;
     border :white 5px;
     border-radius: 20px 0 0 20px ;
@@ -443,13 +436,14 @@ input
 {
     font-weight: bold;
     color: black;
+    margin-bottom: 0;
 }
 
 .prixpopulaire
 {
-    font-size: 1em;
+    font-size: 1.1em;
     color: black;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 
 .rating

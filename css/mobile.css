@@ -5,19 +5,6 @@
 
 
 
-
-a,h3{
-font-size: 1em;
-}
-
-h1{
-    font-size: 1.4em;
-}
-
-h2{
-    font-size:1.2em ;
-}
-
 .header_main{
     margin-left: 0;
     margin-right: 0;
@@ -36,12 +23,13 @@ header{
 }
 
 .navliens{
+    font-size: 1.2em;
     display: flex;
     width: 100%;
-    margin-right: 0;
-    padding-inline-start: 0;
     border-bottom: 3px solid #F2F2F2;
     padding-bottom: 10px;
+    padding: 20px;
+    margin-top: 0;
 }
 
 .navlien1:active{
@@ -60,7 +48,7 @@ header{
     font-weight: bold;
     position: relative;
     top: -65px;
-    left: -72px;
+    left: -95px;
     border-bottom: 0;
 }
 
@@ -84,7 +72,7 @@ header{
 }
 
 .paragraphe_recherche {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-top: 0px;
     margin-bottom: 30px;
 }
@@ -149,7 +137,7 @@ padding:0
 }
 
 .titrefiltre{
-    font-size: 1em;  
+    font-size: 1.2em;  
 }
 
 
@@ -169,7 +157,7 @@ padding:0
     background-color: transparent;
     border: none;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .fa-heart,.fa-child,.fa-money-bill-wave,.fa-dog{
@@ -201,7 +189,7 @@ padding:0
 /*-----populaire-----*/
 
 .popularite{
-    padding: 0;
+    padding: 20px;
     width: 100%;
     border-radius: 0;
     margin: 0;
@@ -244,7 +232,7 @@ padding:0
 
 .coeur{
     height: 146px;
-    width: 58%;
+    width: 40%;
     object-fit: cover;
 border: white 5px;
 border-radius: 20px 0 0 20px;
@@ -267,17 +255,19 @@ padding-right: 23px;
 
 .nompopulaire {
     margin-bottom: 0;
+    font-size: 1.2em;
 }
 .prixpopulaire {
-    font-size: 0.9em;
+    font-size: 1em;
     margin-top: 5px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
 }
 
 .hebergementex {
     background-color: white;
     border-radius: 0px;
     width: 100%;
+    padding: 20px;
 }
 
 .exempleshebergements {
@@ -302,25 +292,24 @@ padding-right: 23px;
     padding-bottom: 10px;
     box-shadow: 2px 1px 5px 2px #F2F2F2;
     width: 95%;
+    height: 235px;
     margin: 10px;
 }
 
-.fighebergement6 {
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    padding-bottom: 10px;
-    box-shadow: 2px 1px 5px 2px #F2F2F2;
-    width: 95%;
-    margin-left: 10px;
-    margin-bottom: 35px;
+.figcaptionhebergement{
+    padding-left: 10px;
 }
 
 .lit, .port, .mouette, .mer, .panier, .amina {
-    height: 156px;
+    height: 130px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     padding: 5px 5px 0px 5px;
-    width: 96%;
+    width: 98%;
+}
+
+.nomhebergement{
+    font-size: 1.2em;
 }
 
     .afficher {
@@ -330,6 +319,10 @@ padding-right: 23px;
         margin-left: 10px;
 }
 /*---------------------------activités à Marseille------------------------------------*/
+
+.activites{
+    padding-left: 20px;
+}
 
 
 .titreactivite{
@@ -344,6 +337,10 @@ padding-right: 23px;
     flex-direction: column;
 }
 
+.nomactivite{
+    font-size: 1.2em;
+}
+
 .pomegues_frioul {
     margin-right: 0;
 }
@@ -352,8 +349,8 @@ padding-right: 23px;
 
 
 .figactivitepc, .figactivitePo, .figactiviteF, .figactiviteG, .figactiviteL{
-   height: 269.4px;
-   width: 95%;
+   height: 235px;
+   width: 98%;
    margin-bottom: 0;
    margin-inline-start:0;
    margin-inline-end: 0;
@@ -362,7 +359,7 @@ padding-right: 23px;
 }
 
 .imgH, .imgP, .imgF, .imgG, .imgL{
-    height: 207px;
+    height: 180px;
     width: 100%;
 }
 /*----------------------------------------footer---------------------------------*/
@@ -376,10 +373,17 @@ footer{
 .footer{
     flex-direction: column;
     padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul.listefooter{
+    font-size: 1.2em;
+    padding-inline-start: 0;
 }
 
 .footer li{
     padding-bottom: 12px;
+
 }
 
 
