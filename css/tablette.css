@@ -48,6 +48,10 @@ ul{
     margin-right: 0;
 }
 
+.active{
+    border:none
+}
+
 .hebergement {
     color: #DEEBFF;
 }

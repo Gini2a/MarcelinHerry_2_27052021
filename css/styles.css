@@ -58,10 +58,14 @@ ul
      font-size: 1.4em;
 }
 
+.active
+{
+    border-top:2px solid #0065FC;
+    padding-top: 45px;    
+}
+
 .navigation li{
     
-    border-top: 2px solid transparent;
-    border-collapse: collapse;
     padding-top: 45px;
     width: 100%;
 
@@ -81,12 +85,7 @@ ul
     padding: 25px;
 }
 
-.navlien1:active
-{
-    border-top:2px solid #0065FC;
-    padding-top: 45px;
 
-}
 
 .navlien2
 {
@@ -233,22 +232,25 @@ input
 .filtre:hover{
      background-color:#0065FC;
     color: #DEEBFF;
+    cursor: pointer;
 }
 
-
-
-.filtre i:hover
-{
-    background-color:#0065FC;
-    color: white;
-     
-}
-
-
-.filter_button:hover
-{
+.filtre:hover .filter_button{
     background-color: #0065FC;
-    color:white
+    color: white;
+}
+
+.filtre i{
+    transition: 1s, transform 1s;
+    border: 1px solid transparent;
+}
+
+.filtre:hover i {
+    background-color: #0065FC;
+    color: white;
+    border: 1px solid white;
+    transform: rotate(360deg);
+
 }
 
 
