@@ -380,6 +380,7 @@ input
 .popularite
 {
     width: 30%;
+    min-width: 440px;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 10px;
@@ -414,6 +415,8 @@ input
     background-color: white;
     border-radius: 20px;
     display: flex;
+    height: 220px;
+    min-width: 370px;
  
     
 }
@@ -422,7 +425,6 @@ input
 .coeur,
 .parquet
 {
-    height:190px;
     width: 42%;
     object-fit: cover;
     border :white 5px;
@@ -445,7 +447,7 @@ input
 {
     font-size: 1.1em;
     color: black;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
 }
 
 .rating
