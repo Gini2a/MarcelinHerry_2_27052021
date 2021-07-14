@@ -1,13 +1,6 @@
-#bloc_page{
-    width: 100%;
-    margin: auto;
-}
-
-
 
 .header_main{
-    margin-left: 0;
-    margin-right: 0;
+    margin: auto;
 }
 
 .logo{
@@ -23,11 +16,10 @@ header{
 }
 
 .navigation{
-    width: 112%;
+    width: 100%;
 }
 
 .navliens{
-    position: relative;
     font-size: 1.2em;
     display: flex;
     width: 100%;
@@ -47,7 +39,7 @@ header{
 }
 
 .activite{
-    width: 50%;
+    width: 50% !important;
     text-align: center;
 }
 
@@ -59,8 +51,8 @@ ul{
     color: #0065FC;
     font-weight: bold;
     position: absolute;
-    top: -50px;
-    left: 300px;
+    top: 15px;
+    right: 30px;
     border-bottom: 0;
 }
 
@@ -213,6 +205,7 @@ padding:0
     border-radius: 0;
     margin: 0;
     padding-top: 0;
+    min-width: initial;
 }
 
 .populaires {
@@ -231,11 +224,13 @@ padding:0
 }
 
 .figpopulaire {
+    height: 170px;
     background-color: white;
     border-radius: 20px;  
     margin-inline-start: 0px;
-    width: 95%;
-    margin-left: 10px;
+    width: 100%;
+    min-width: initial;
+    
       
 }
 
@@ -243,15 +238,13 @@ padding:0
     background-color: white;
     border-radius: 20px;  
     margin-inline-start: 0px;
-    width: 95%;
-    margin-left: 10px;
+    width: 100%;
     margin-bottom: 35px;
     margin-top: 0;
 
 }
 
 .coeur{
-    height: 146px;
     width: 40%;
     object-fit: cover;
 border: white 5px;
@@ -262,7 +255,6 @@ padding-left: 5px;
 padding-right: 23px;
 }
 .verte,.parquet {
-    height: 146px;
     width: 40%;
     object-fit: cover;
     border: white 5px;
@@ -280,7 +272,7 @@ padding-right: 23px;
 .prixpopulaire {
     font-size: 1em;
     margin-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .hebergementex {
