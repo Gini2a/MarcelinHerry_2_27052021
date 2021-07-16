@@ -509,7 +509,7 @@ span{
     height: 550px;
     width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
-    margin-inline-start:0;
+    margin-left:0;
     margin-right: 20px;
 }
 /***************************************************div2 Pomègues Fioul**********************************************************/
@@ -527,8 +527,8 @@ span{
     width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
     margin-bottom: 30px;
-    margin-inline-start:0;
-    margin-inline-end: 0;
+    margin-left:0;
+    margin-right:0;
 }
 
 .imgP
@@ -546,8 +546,8 @@ span{
     width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
     height: 210px;
-    margin-inline-start:0;
-    margin-inline-end: 0;
+    margin-left:0;
+    margin-right: 0;
 }
 
 .figactiviteG{
@@ -556,8 +556,8 @@ span{
     width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
     height: 235px;
-    margin-inline-start:0;
-    margin-inline-end: 0;
+    margin-left:0;
+    margin-right:0;
 }
 
 .figactiviteL{
@@ -566,8 +566,8 @@ span{
     width: 390px;
     box-shadow: 12px 12px 12px #F2F2F2;
     height: 277px;
-    margin-inline-start:0;
-    margin-inline-end: 0;
+    margin-left:0;
+    margin-right:0;
 }
 
 .imgF
@@ -601,12 +601,6 @@ span{
 }
 
 /********************************************footer*****************************************/
-
-footer{
-   
-}
-
-
 .footer
 {
     background-color: #F2F2F2;
@@ -620,7 +614,7 @@ footer{
 {
     flex-direction: column;
     margin-right: 0;
-    padding-inline-start: 0;
+    padding-left: 0;
 }
   
 .titrefooter
