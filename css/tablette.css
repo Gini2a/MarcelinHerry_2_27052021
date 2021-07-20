@@ -99,10 +99,10 @@ input {
     
 .boutonrecherche{
     background-color: #0065FC;
-    color: transparent;
+    color: white;
     font-weight: bold;
     border-radius: 0px 10px 10px 0px;  
-    border-color: #0065FC;
+    border-color: transparent;
 }
 
 .filters{
