@@ -12,13 +12,13 @@
 
 
 h1, h2{
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: bold;
 
 }
 
 h3{
-    font-size: 1.4em;
+    font-size: 1em;
 }
 a{
     color: black;
@@ -55,7 +55,7 @@ ul
      display: flex;
      list-style: none;
      margin-right: 40px;
-     font-size: 1.4em;
+     font-size: 1em;
 }
 
 .active
@@ -124,7 +124,7 @@ ul
 }
 .paragraphe_recherche
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     margin-top: 0px;
     margin-bottom: 25px;
 }
@@ -161,7 +161,7 @@ input
     padding: 0 20px;
     border-color: #0065FC;
     font-family: 'raleway';
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
 }
 
@@ -172,7 +172,7 @@ input
 .lieu{
     font-weight: bold;
     color: black;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'raleway';
 }
 
@@ -209,7 +209,7 @@ input
 {
     margin-right: 20px;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1em;
     margin-top: 45px;
 }
 
@@ -262,7 +262,7 @@ input
    background-color:white;
    border:none;
    font-weight: bold; 
-   font-size: 1.4em;  
+   font-size: 1em;  
    font-family: 'raleway'         
 }
 
@@ -270,7 +270,7 @@ input
 {
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 1em;
+    font-size: 0.8em;
       
 }
 
@@ -307,7 +307,7 @@ input
 .titrehebergement
 {
     font-weight: bold;
-    margin-left: 42px;
+    margin-left: 20px;
     margin-top: 50px;
 }
 
@@ -334,8 +334,8 @@ input
 .panier,
 .amina 
 {
-    height: 170px;
-    width: 97%;
+    height: 107px;
+    width: 96%;
     border-radius:20px 20px 0 0;
     object-fit: cover;
     padding:5px 5px 0px 5px 
@@ -347,8 +347,10 @@ input
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 10px;
     box-shadow :  2px  1px  5px  2px #F2F2F2;
-    width: 300px;
+    width: 240px;
     margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     
    
 }
@@ -364,7 +366,7 @@ input
 
 .prixhebergement
 {
-    font-size:1.1em;
+    font-size:0.8em;
     color: black;
     padding-left: 10px;
     margin-top: 10px;
@@ -374,7 +376,7 @@ input
 .afficher
 {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
     color: black;
     margin-left: 42px;
 }
@@ -417,8 +419,8 @@ input
     background-color: white;
     border-radius: 20px;
     display: flex;
-    height: 220px;
-    min-width: 370px;
+    height: 139px;
+    
  
     
 }
@@ -447,15 +449,15 @@ input
 
 .prixpopulaire
 {
-    font-size: 1.1em;
+    font-size: 0.8em;
     color: black;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .rating
 {
     color: #0065FC;
-    font-size: 1em;
+    font-size: 0.7em;
     padding-left: 10px;
     margin-top: 0;
 }
@@ -463,7 +465,7 @@ input
 .ratingpop
 {
     color: #0065FC;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 
@@ -507,7 +509,7 @@ span{
     background-color: white;
     border-radius: 20px;
     height: 550px;
-    width: 390px;
+    width: 280px;
     box-shadow: 12px 12px 12px #F2F2F2;
     margin-left:0;
     margin-right: 20px;
@@ -524,7 +526,7 @@ span{
     background-color: white;
     border-radius: 20px;
     height: 310px;
-    width: 390px;
+    width: 280px;
     box-shadow: 12px 12px 12px #F2F2F2;
     margin-bottom: 30px;
     margin-left:0;
@@ -543,7 +545,7 @@ span{
 {
     background-color: white;
     border-radius: 20px;
-    width: 390px;
+    width: 280px;
     box-shadow: 12px 12px 12px #F2F2F2;
     height: 210px;
     margin-left:0;
@@ -553,7 +555,7 @@ span{
 .figactiviteG{
     background-color: white;
     border-radius: 20px;
-    width: 390px;
+    width: 280px;
     box-shadow: 12px 12px 12px #F2F2F2;
     height: 235px;
     margin-left:0;
@@ -563,7 +565,7 @@ span{
 .figactiviteL{
     background-color: white;
     border-radius: 20px;
-    width: 390px;
+    width: 280px;
     box-shadow: 12px 12px 12px #F2F2F2;
     height: 277px;
     margin-left:0;
@@ -620,7 +622,7 @@ span{
 .titrefooter
 {
     font-weight:bold;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .propos{

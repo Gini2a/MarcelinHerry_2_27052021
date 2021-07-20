@@ -1,0 +1,24 @@
+.fighebergement{
+    width: 320px;
+
+}
+
+.lit, .port, .mouette, .mer, .panier, .amina {
+    height: 144px;
+    width: 97%;
+}
+
+.figpopulaire{
+    height: 170px;
+
+}
+
+.prixpopulaire{
+    padding-bottom: 45px;
+}
+
+.figactivitepc, .figactivitePo, .figactiviteF, .figactiviteG, .figactiviteL{
+
+    width: 310px;
+
+}
