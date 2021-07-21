@@ -1,4 +1,9 @@
 /*------------------------------header-nav------------------------------*/
+
+h1,h2{
+    font-size : 1.6em;
+}
+
 .header_main{
     margin: auto;
 }
@@ -69,7 +74,6 @@ ul{
 /*-----------------------Filtres------------------------*/
 .recherche_filtre{
     margin-top: 30px;
-    margin-left: 20px ;
 }
 
 .recherche{
@@ -99,7 +103,7 @@ ul{
 .barre_recherche {
 
     display: flex;
-    width: 100%;
+    width: 95%;
     margin-bottom: 30px;
     
 }
@@ -204,8 +208,7 @@ padding:0
 /*-----populaire-----*/
 
 .popularite{
-    padding: 24px;
-    width: 100%;
+    width: 96%;
     border-radius: 0;
     margin: 0;
     padding-top: 0;
@@ -283,7 +286,6 @@ padding-right: 23px;
     background-color: white;
     border-radius: 0px;
     width: 100%;
-    padding: 24px;
     padding-bottom: 40px;
 }
 
@@ -294,7 +296,7 @@ padding-right: 23px;
 }
 
 .titrehebergement{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .exemplehebergement{
@@ -307,11 +309,11 @@ padding-right: 23px;
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 10px;
     box-shadow: 2px 1px 5px 2px #F2F2F2;
-    width: 100%;
+    width: 95%;
     height: 250px;
     margin: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .figcaptionhebergement{
@@ -346,14 +348,12 @@ padding-right: 23px;
 .titreactivite{
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 10px;
-    padding-left: 24px;
+    margin-left: 20px;
 }
 
 
 .activity{
-    padding: 24px;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
 }
@@ -374,7 +374,7 @@ padding-right: 23px;
    height: 250px;
    width: 100%;
    margin-bottom: 0;
-   margin-left:0;
+   margin-left:10px;
    margin-right: 0;
 }
 
