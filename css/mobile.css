@@ -391,7 +391,6 @@ padding-right: 23px;
 
 .footer{
     flex-direction: column;
-    padding-left: 10px;
 }
 
 ul.listefooter{
@@ -406,10 +405,15 @@ ul.listefooter{
 
 
 .propos {
-    padding-left: 0px;
+    padding-left: 10px;
 
+}
+
+.nos_hebergements{
+    padding-left: 10px;
 }
 
 .assistance{
     padding-right: 0;
+    padding-left: 10px;
 }
